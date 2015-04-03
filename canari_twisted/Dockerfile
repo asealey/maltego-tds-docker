@@ -44,10 +44,8 @@ ADD resources/message.py /usr/local/lib/python2.7/dist-packages/canari/maltego/
 ########## Setup Canari Twisted Listener ###########
 
 EXPOSE 80
-EXPOSE 443
 
 VOLUME "/opt/tdsTransforms"
-VOLUME "/opt/ssl"
 
 WORKDIR /opt/plume
 CMD ["/bin/bash"]
