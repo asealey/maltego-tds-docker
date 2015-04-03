@@ -28,6 +28,7 @@ as well as fully functional and performant production instances.
 
 This project aims to create canonical docker containers for serving TRX and
 Canari transforms to iTDS.  The first phase is Canari, then TRX.
+
 1. **canari_twisted**: a docker container serving canari's twisted module, plume
 
 ## Installation
@@ -35,6 +36,7 @@ Canari transforms to iTDS.  The first phase is Canari, then TRX.
 ### DockerHub
 The docker containers are available on [DockerHub](https://registry.hub.docker.com/u/asealey/maltego-tds-canari/).
 Installation is as simple as:
+
 `docker pull asealey/maltego-tds-canari`
 
 ### Manual
